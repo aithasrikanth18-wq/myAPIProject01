@@ -1,0 +1,20 @@
+{
+  "validUser": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 30,
+    "email": "john.doe@example.com"
+  },
+  "updatedUser": {
+    "firstName": "Jonathan",
+    "lastName": "Doe"
+  },
+  "existingUserId": 2,
+  "nonExistentUserId": 999999
+}
+
+
+
+
+
+

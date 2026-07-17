@@ -1,0 +1,6 @@
+{
+  "env": "prod",
+  "baseUrl": "https://dummyjson.com/",
+  "apiKey": "",
+  "timeout": 30000
+}

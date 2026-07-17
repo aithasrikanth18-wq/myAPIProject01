@@ -1,0 +1,21 @@
+node_modules/
+
+# Playwright artifacts
+reports/
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+
+# Environment secrets
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.claude/settings.local.json

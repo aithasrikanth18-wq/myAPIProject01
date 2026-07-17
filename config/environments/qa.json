@@ -1,0 +1,6 @@
+{
+  "env": "qa",
+  "baseUrl": "https://dummyjson.com/",
+  "apiKey": "",
+  "timeout": 30000
+}

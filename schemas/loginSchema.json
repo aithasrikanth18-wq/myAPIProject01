@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Login Response Schema",
+  "type": "object",
+  "required": ["id", "username", "email", "accessToken", "refreshToken"],
+  "properties": {
+    "id": { "type": "integer" },
+    "username": { "type": "string" },
+    "email": { "type": "string" },
+    "accessToken": { "type": "string", "minLength": 1 },
+    "refreshToken": { "type": "string", "minLength": 1 }
+  }
+}

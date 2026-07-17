@@ -1,0 +1,28 @@
+{
+  "name": "api-automation-framework",
+  "version": "1.0.0",
+  "description": "Enterprise-level API automation framework built with Playwright Test Runner",
+  "main": "playwright.config.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "playwright test",
+    "test:qa": "cross-env ENV=qa playwright test",
+    "test:uat": "cross-env ENV=uat playwright test",
+    "test:prod": "cross-env ENV=prod playwright test",
+    "test:user": "playwright test tests/user",
+    "test:auth": "playwright test tests/auth",
+    "test:health": "playwright test tests/health",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report reports/html-report"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "cross-env": "^7.0.3"
+  }
+}

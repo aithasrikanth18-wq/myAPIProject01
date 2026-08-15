@@ -12,6 +12,7 @@
     "test:user": "playwright test tests/user",
     "test:auth": "playwright test tests/auth",
     "test:health": "playwright test tests/health",
+    "test:booking": "playwright test tests/booking",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "report": "playwright show-report reports/html-report"

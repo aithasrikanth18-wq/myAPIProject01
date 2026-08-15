@@ -1,0 +1,62 @@
+{
+  "sharedBooking": {
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "updateBooking": {
+    "firstname": "James",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "partialUpdateBooking": {
+    "firstname": "James",
+    "lastname": "Brown"
+  },
+  "filterByNameBooking": {
+    "firstname": "QaAutomationSally",
+    "lastname": "QaAutomationBrown",
+    "totalprice": 150,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2020-06-01",
+      "checkout": "2020-06-10"
+    },
+    "additionalneeds": "Lunch"
+  },
+  "filterByDateBooking": {
+    "firstname": "QaAutomationDate",
+    "lastname": "QaAutomationFilter",
+    "totalprice": 200,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2014-03-13",
+      "checkout": "2014-05-21"
+    },
+    "additionalneeds": "Dinner"
+  },
+  "bookingToDelete": {
+    "firstname": "ToDelete",
+    "lastname": "Record",
+    "totalprice": 50,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2021-01-01",
+      "checkout": "2021-01-02"
+    },
+    "additionalneeds": "None"
+  },
+  "nonExistentBookingId": 999999999
+}

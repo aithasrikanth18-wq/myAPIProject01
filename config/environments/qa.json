@@ -1,6 +1,7 @@
 {
   "env": "qa",
   "baseUrl": "https://dummyjson.com/",
+  "bookerBaseUrl": "https://restful-booker.herokuapp.com/",
   "apiKey": "",
   "timeout": 30000
 }
